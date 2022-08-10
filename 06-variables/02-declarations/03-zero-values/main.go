@@ -21,7 +21,7 @@ func main() {
 	fmt.Println(speed)
 	fmt.Println(heat)
 	fmt.Println(off)
-
+	fmt.Println(brand)
 	// I've used printf to print an empty string
 	// EXERCISE: Use Println to see what happens
 	fmt.Printf("%q\n", brand)

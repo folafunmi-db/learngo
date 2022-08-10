@@ -37,6 +37,9 @@ func main() {
 	// this doesn't work. 65.0 is a float.
 	// fmt.Println(string(65.0))
 
+	a := 6.5
+	fmt.Print(int(a))
+
 	// this works: there are two byte values
 	// byte is also an int
 	fmt.Println(string([]byte{104, 105}))
