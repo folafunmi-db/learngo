@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Print Your Fullname
 //
@@ -23,4 +28,7 @@ package main
 
 func main() {
 	// BONUS: Use a variable for the format specifier
+	args := os.Args
+
+	fmt.Printf("Your name is %[1]s and your lastname is %[2]s", args[1], args[2])
 }

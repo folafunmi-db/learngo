@@ -46,5 +46,5 @@ func main() {
 	// ...
 
 	// DO NOT TOUCH THIS
-	fmt.Printf("radius: %g -> area: %g\n", radius, area)
+	fmt.Printf("radius: %g -> area: %.2f\n", radius, area)
 }

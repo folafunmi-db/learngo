@@ -39,10 +39,10 @@ func main() {
 	// fmt.Printf("Does %v has life? %f\n", planet, hasLife)
 
 	// correct verbs:
-	// fmt.Printf("Planet: %s\n", planet)
-	// fmt.Printf("Distance: %d millions kms\n", distance)
-	// fmt.Printf("Orbital Period: %f days\n", orbital)
-	// fmt.Printf("Does %s has life? %t\n", planet, hasLife)
+	fmt.Printf("Planet: %s\n", planet)
+	fmt.Printf("Distance: %d millions kms\n", distance)
+	fmt.Printf("Orbital Period: %f days\n", orbital)
+	fmt.Printf("Does %s has life? %t\n", planet, hasLife)
 
 	// precision
 	fmt.Printf("Orbital Period: %f days\n", orbital)

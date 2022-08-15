@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Print Your Age
 //
@@ -22,4 +24,6 @@ package main
 
 func main() {
 	// ?
+	age := 24
+	fmt.Printf("I'm %d years old", age)
 }
