@@ -20,8 +20,8 @@ func main() {
 	// 65535 - 255 is lost.
 	small := uint8(big)
 
-	// fmt.Printf("%b %d\n", big, big)
-	// fmt.Printf("%b %[1]d\n", big)
+	fmt.Printf("%b %d\n", big, big)
+	fmt.Printf("%b %[1]d\n", big)
 
 	fmt.Printf("%016b %[1]d\n", big)
 	fmt.Printf("%016b %[1]d\n", small)

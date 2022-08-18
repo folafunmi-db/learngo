@@ -61,6 +61,7 @@ func main() {
 
 	fmt.Printf("Type of weights.Gram: %T\n", weights.Gram(1))
 	fmt.Printf("Type of main.Gram   : %T\n", Gram(1))
+	fmt.Printf("Type of salt   : %T\n", salt)
 
 	// You can declare a new type
 	// from a type of an external package
